@@ -1,0 +1,38 @@
+descripcion: |
+  Comenzaremos trabajando con las guías de **Mumuki** pero antes vas a tener que hacer lo siguiente:
+    * Registrarte ingresando en [Mumuki](https://mumuki.io/login). podés registrarte con tu cuenta de Google  o crearte una nueva dentro de Mumuki con un mail y contraseña que debes recordar para volver a ingresar. 
+    * Una vez registrado debes unirte al curso de la materia ingresando en [UnaHur-Obj1](https://mumuki.io/unahur-obj1/join/Yw_Nxg)
+    * **Importante:** Luego para ingresar siempre directamente al curso podes entrar por el link que hay en la esquina superior derecha de página que dice [Mumuki](https://mumuki.io/login?organization=unahur-obj1&origin=%2Funahur-obj1)
+
+videos:
+  - nombre: Qué es un objeto, qué es un mensaje
+    url: https://youtu.be/zZe0AaSKdyo
+  - nombre: Interactuamos con un objeto
+    url: https://youtu.be/7hXl2kJs2GUs
+  - nombre: Definimos un objeto
+    url: https://youtu.be/aAfjr8-1-0Y
+  - nombre: Primeros pasos con GIT. Grabación de la clase del 2 de Abril dictada por Hernan
+    url: https://youtu.be/7hSpIAHO3yU
+
+    
+
+conferencia:
+  horario0: Presencial - Martes 29 de Marzo, a partir de las 18.00 , Gerardo Gonzalez Tulian 
+
+  horario1: Presencial - Miércoles 30 de Marzo, a parir de las 8.30 hs., Lucas Spigariol 
+ 
+
+entrega:
+  fecha: 2022-04-02T23:59
+  mumuki:
+    - nombre: Multipepita la golondrina
+      url: https://mumuki.io/unahur-obj1/lessons/731-objetos-y-mensajes-acompanamiento-multipepita-etapa-1
+      ejercicios: Obligatorios 1 y 2. Opcionales 3 y 4
+
+mumuki:
+  - nombre: Conociendo a los objetos
+    url: https://mumuki.io/unahur-obj1/lessons/687-objetos-y-mensajes-conociendo-a-los-objetos
+    ejercicios: Guía completa, los 12 ejercicios
+  - nombre: Métodos y estados 
+    url: https://mumuki.io/unahur-obj1/lessons/489-objetos-y-mensajes-metodos-y-estado
+    ejercicios: Hasta el 12 inclusive. Bonus 13 y 14.

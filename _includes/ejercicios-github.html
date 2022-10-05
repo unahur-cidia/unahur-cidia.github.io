@@ -1,0 +1,44 @@
+<div class="grid">
+  {% for ej in ejercicios %}
+  <article>
+    <div class="container">
+      <h3><b>{{ej.name}}</b></h3>
+      {% if ej.classroom %}
+      <p markdown="span">
+        <i class="fas fa-book fa-fw"></i> [Clonar el ejercicio]({{ej.classroom}})
+      </p>
+      {% endif %}
+      {% if ej.repo %}
+      <p markdown="span">
+        <i class="fab fa-github fa-fw"></i> [Ver enunciado](https://github.com/{{ej.repo}})
+      </p>
+      {% endif %}
+      {% if ej.apuntes %}
+      <p>
+        <i class="fas fa-chalkboard-teacher fa-fw"></i> Apuntes
+        <ul>
+          {% for ap in ej.apuntes %}
+          <li markdown="span">[{{ap.name}}](https://github.com/{{ap.repo}})</li>
+          {% endfor %}
+        </ul>
+      </p>
+      {% endif %}
+      {% if ej.comentarios %}
+      <p>
+        <i class="fas fa-chalkboard-teacher fa-fw"></i> Comentarios
+        {% for c in ej.comentarios %}
+        <ul>
+            {% if c.name %}
+              <li markdown="span">{{c.name}}</li>
+            {% endif %}
+            {% if c.repo %}
+              <li markdown="span">[Formulario de Soluciones]({{c.repo}})</li>
+            {% endif %}              
+        </ul>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,18 @@
+---
+layout: master
+---
+
+<header class="page-header" role="banner">
+  <img class="project-logo" src="assets/images/cidia.png">
+</header>
+
+<main id="content" class="main-content" role="main">
+  {{ content }}
+
+  <footer class="site-footer">
+    {% if site.github.is_project_page %}
+      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+    {% endif %}
+    <span class="site-footer-credits">Esta página fue creada utilizando <a href="https://pages.github.com">GitHub Pages</a>. Podés ver cómo está hecha (y proponer algún cambio) entrando a <a href="{{ site.github.repository_url }}">este repositorio.</a></span>
+  </footer>
+</main>
