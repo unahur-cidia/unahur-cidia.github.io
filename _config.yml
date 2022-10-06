@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+lang: es-AR
+title: CIDIA
+plugins:
+  - jemoji
